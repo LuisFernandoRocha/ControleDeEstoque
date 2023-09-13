@@ -17,14 +17,11 @@ namespace ControleDeEstoque
             InitializeComponent();
         }
 
-        private void frmPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void cToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            frmCadastroCategoria f = new frmCadastroCategoria();
+            f.ShowDialog();
+            f.Dispose();
         }
     }
 }

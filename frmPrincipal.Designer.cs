@@ -31,17 +31,12 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.movimentaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.relatórioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ferramentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.subCategoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unidadeDeMedidaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,6 +44,11 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.movimentaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.relatórioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ferramentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -56,9 +56,9 @@
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Location = new System.Drawing.Point(0, 48);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 28);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(981, 38);
+            this.menuStrip1.Size = new System.Drawing.Size(785, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -69,6 +69,12 @@
             this.cToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(88, 28);
+            // 
+            // cToolStripMenuItem
+            // 
+            this.cToolStripMenuItem.Name = "cToolStripMenuItem";
+            this.cToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
+            this.cToolStripMenuItem.Text = "C";
             // 
             // contextMenuStrip2
             // 
@@ -100,7 +106,7 @@
             this.sobreToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(981, 38);
+            this.menuStrip2.Size = new System.Drawing.Size(785, 28);
             this.menuStrip2.TabIndex = 4;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -117,42 +123,6 @@
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
-            // 
-            // cToolStripMenuItem
-            // 
-            this.cToolStripMenuItem.Name = "cToolStripMenuItem";
-            this.cToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
-            this.cToolStripMenuItem.Text = "C";
-            // 
-            // consultaToolStripMenuItem
-            // 
-            this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
-            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
-            this.consultaToolStripMenuItem.Text = "Consulta";
-            // 
-            // movimentaçãoToolStripMenuItem
-            // 
-            this.movimentaçãoToolStripMenuItem.Name = "movimentaçãoToolStripMenuItem";
-            this.movimentaçãoToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
-            this.movimentaçãoToolStripMenuItem.Text = "Movimentação";
-            // 
-            // relatórioToolStripMenuItem
-            // 
-            this.relatórioToolStripMenuItem.Name = "relatórioToolStripMenuItem";
-            this.relatórioToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
-            this.relatórioToolStripMenuItem.Text = "Relatório";
-            // 
-            // ferramentasToolStripMenuItem
-            // 
-            this.ferramentasToolStripMenuItem.Name = "ferramentasToolStripMenuItem";
-            this.ferramentasToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
-            this.ferramentasToolStripMenuItem.Text = "Ferramentas";
-            // 
-            // sobreToolStripMenuItem
-            // 
-            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
-            this.sobreToolStripMenuItem.Text = "sobre";
             // 
             // cToolStripMenuItem1
             // 
@@ -196,6 +166,36 @@
             this.fornecedorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.fornecedorToolStripMenuItem.Text = "Fornecedor";
             // 
+            // consultaToolStripMenuItem
+            // 
+            this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
+            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
+            this.consultaToolStripMenuItem.Text = "Consulta";
+            // 
+            // movimentaçãoToolStripMenuItem
+            // 
+            this.movimentaçãoToolStripMenuItem.Name = "movimentaçãoToolStripMenuItem";
+            this.movimentaçãoToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.movimentaçãoToolStripMenuItem.Text = "Movimentação";
+            // 
+            // relatórioToolStripMenuItem
+            // 
+            this.relatórioToolStripMenuItem.Name = "relatórioToolStripMenuItem";
+            this.relatórioToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.relatórioToolStripMenuItem.Text = "Relatório";
+            // 
+            // ferramentasToolStripMenuItem
+            // 
+            this.ferramentasToolStripMenuItem.Name = "ferramentasToolStripMenuItem";
+            this.ferramentasToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
+            this.ferramentasToolStripMenuItem.Text = "Ferramentas";
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
+            this.sobreToolStripMenuItem.Text = "sobre";
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -207,7 +207,6 @@
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema Controle de Estoque";
-            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.contextMenuStrip1.ResumeLayout(false);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
