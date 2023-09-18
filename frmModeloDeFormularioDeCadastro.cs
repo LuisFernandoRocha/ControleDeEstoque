@@ -57,11 +57,6 @@ namespace ControleDeEstoque
             this.alteraBotoes(1);
         }
 
-        //private void frmModeloDeFormularioDeCadastro_Load(object sender, EventArgs e)
-        //{
-        //    this.alteraBotoes(1);
-        //}
-
         //private void frmModeloDeFormularioDeCadastro_KeyDown(object sender, KeyEventArgs e)
         //{
         //    if (e.KeyCode == Keys.Enter)

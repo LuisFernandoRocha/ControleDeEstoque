@@ -18,3 +18,7 @@ C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\GUI.csproj.CopyComplete
 C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.exe
 C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.pdb
 C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.frmModeloDeFormularioDeCadastro.resources
+C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.frmCadastroCategoria.resources
+C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.frmConsultaCategoria.resources
+C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.frmCadastroSubCategoria.resources
+C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.frmConsultaSubCategoria.resources
