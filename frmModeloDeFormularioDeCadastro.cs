@@ -57,12 +57,12 @@ namespace ControleDeEstoque
             this.alteraBotoes(1);
         }
 
-        //private void frmModeloDeFormularioDeCadastro_KeyDown(object sender, KeyEventArgs e)
-        //{
-        //    if (e.KeyCode == Keys.Enter)
-        //    {
-        //        this.SelectNextControl(this.ActiveControl, !e.Shift, true, true, true);
-        //    }
-        //}
+        private void frmModeloDeFormularioDeCadastro_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                this.SelectNextControl(this.ActiveControl, !e.Shift, true, true, true);
+            }
+        }
     }
 }

@@ -143,6 +143,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modelo de formulário de cadastro";
             this.Load += new System.EventHandler(this.frmModeloDeFormularioDeCadastro_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmModeloDeFormularioDeCadastro_KeyDown);
             this.pnBotoes.ResumeLayout(false);
             this.ResumeLayout(false);
 
