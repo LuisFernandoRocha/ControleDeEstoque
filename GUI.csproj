@@ -205,5 +205,8 @@
   <ItemGroup>
     <None Include="imagens\localizar3.fw.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="imagens\incluir.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

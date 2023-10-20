@@ -24,3 +24,4 @@ C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.frmCad
 C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.frmConsultaSubCategoria.resources
 C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.frmCadastroUnidadeDeMedida.resources
 C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.frmConsultaUnidadeDeMedida.resources
+C:\Users\ferna\source\repos\ControleDeEstoque\obj\Debug\ControleDeEstoque.frmCadastroProduto.resources

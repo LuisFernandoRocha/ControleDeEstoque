@@ -58,5 +58,12 @@ namespace ControleDeEstoque
             f.ShowDialog();
             f.Dispose();
         }
+
+        private void produtoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroProduto f = new frmCadastroProduto();
+            f.ShowDialog();
+            f.Dispose();
+        }
     }
 }
